@@ -93,7 +93,7 @@ export default function Home() {
 
 							<div className="flex justify-center max-w-sm">
 							<p className="text-sm text-center font-semibold">
-								Poop Chatbot
+								Poop Chatbot powerby Gemini
 							</p>
 							</div>
 							<div>
