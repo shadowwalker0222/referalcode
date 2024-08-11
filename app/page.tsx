@@ -101,7 +101,7 @@ export default function Home() {
 							<a href="https://germini-chatbot.vercel.app/" target="_blank">
 								<Card className="w-full" isHoverable>
 									<CardBody className="py-3 px-10 text-black bg-white hover:bg-gray-300">
-										<h3 className="self-center text-lg"> POOP Chatbot</h3>
+										<h3 className="self-center text-lg"> 💩 Chatbot</h3>
 									</CardBody>
 								</Card>
 							</a>
