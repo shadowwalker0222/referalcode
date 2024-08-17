@@ -91,21 +91,7 @@ export default function Home() {
 								</Card>
 							</a>
 
-							<div className="flex justify-center max-w-sm">
-							<p className="text-sm text-center font-semibold">
-								Poop Chatbot powered by Gemini
-							</p>
-							</div>
-							<div>
-
-							<a href="https://germini-chatbot.vercel.app/" target="_blank">
-								<Card className="w-full" isHoverable>
-									<CardBody className="py-3 px-10 text-black bg-white hover:bg-gray-300">
-										<h3 className="self-center text-lg"> 💩 Chatbot</h3>
-									</CardBody>
-								</Card>
-							</a>
-						</div>
+							
 
 							<div className="flex justify-center max-w-sm">
 							<p className="text-sm text-center font-semibold">
