@@ -91,6 +91,14 @@ export default function Home() {
 								</Card>
 							</a>
 
+							<a href="https://sqkrisplus.page.link/9zCVbJCvUZkLFPJK8" target="_blank">
+								<Card className="w-full" isHoverable>
+									<CardBody className="py-3 px-10 text-black bg-white hover:bg-gray-300">
+										<h3 className="self-center text-lg"> Kris+</h3>
+									</CardBody>
+								</Card>
+							</a>
+
 							
 
 							<div className="flex justify-center max-w-sm">
