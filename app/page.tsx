@@ -2,6 +2,7 @@ import { Card, CardBody } from "@nextui-org/card"
 import { Chip } from "@nextui-org/chip"
 import Image from "next/image"
 
+
 /*
 	Create a Card for our linktree to live in
 	Create a next/image
@@ -59,7 +60,7 @@ export default function Home() {
 									</CardBody>
 								</Card>
 							</a>
-							<a href="https://tigr.link/cMgSz?invite=4Q53YF&platform=iOS&utm_source=invite&utm_campaign=AC1657782932131XBHazN-invitflow&shareID=096252c3f9e8e8c11a5fa380a7dc794a&utm_medium=whatsapp" target="_blank">
+							<a href="https://tigr.link/s/20Bj8UR" target="_blank">
 								<Card className="w-full" isHoverable>
 									<CardBody className="py-3 px-10 text-black bg-white hover:bg-gray-300">
 										<h3 className="self-center text-lg">Tiger Trade</h3>
@@ -119,7 +120,7 @@ export default function Home() {
 
 							<div className="flex justify-center max-w-sm">
 							<p className="text-xs text-center font-semibold">
-							Designed & crafted by Ryan Tay &copy;2020-2024.
+							Designed & crafted by Ryan Tay &copy;2020-2025.
 							</p>
 						</div>
 						
