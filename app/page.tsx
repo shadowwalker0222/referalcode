@@ -1,6 +1,9 @@
 import { Card, CardBody } from "@nextui-org/card"
 import { Chip } from "@nextui-org/chip"
 import Image from "next/image"
+import getConfig from "next/config";
+const { NEXT_PUBLIC_LAST_UPDATED_AT } = process.env;
+
 
 
 /*
@@ -27,7 +30,7 @@ export default function Home() {
 							/>
 						</div>
 						<div className="flex justify-center pt-2">
-							<h2 className="text-3xl font-bold">@r_tay12</h2>
+							<h2 className="text-3xl font-bold"></h2>
 						</div>
 						<div className="flex justify-center m-4 gap-4">
 							<Chip
@@ -38,13 +41,14 @@ export default function Home() {
 								Build with Next.js 13 & NextUI 2.0
 							</Chip>
 							
-							
 						</div>
 						<div className="flex justify-center max-w-sm">
 							<p className="text-sm text-center font-semibold">
 								*Referral code might change*
 							</p>
 						</div>
+
+						
 						<div className="flex flex-col justify-center gap-4 pt-4">
 							<a href="https://app.shopback.com/5wolqnNHosb" target="_blank">
 								<Card className="w-full" isHoverable>
@@ -76,10 +80,10 @@ export default function Home() {
 								</Card>
 							</a>
 
-							<a href="https://www.webull.com.sg/s/uIYsg5e5XE3cO3KeBq" target="_blank">
+							<a href="https://web.gomo.sg/gcp/luckyDraw/utm/08biRg" target="_blank">
 								<Card className="w-full" isHoverable>
 									<CardBody className="py-3 px-10 text-black bg-white hover:bg-gray-300">
-										<h3 className="self-center text-lg"> Webull</h3>
+										<h3 className="self-center text-lg"> GOMO (J73V9W) </h3>
 									</CardBody>
 								</Card>
 							</a>
@@ -120,9 +124,16 @@ export default function Home() {
 
 							<div className="flex justify-center max-w-sm">
 							<p className="text-xs text-center font-semibold">
-							Designed & crafted by Ryan Tay &copy;2020-2025.
+							Designed & crafted by Ryan Tay &copy;2020-2026.
 							</p>
 						</div>
+						{process.env.NEXT_PUBLIC_LAST_UPDATED_AT && (
+  							<div className="flex justify-center max-w-sm">
+    							<p className="text-xs text-center font-semibold">
+      								Last updated: {new Date(process.env.NEXT_PUBLIC_LAST_UPDATED_AT).toLocaleString()}
+    							</p>
+  							</div>
+						)}
 						
 						</div>
 					</div>
